@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +206,26 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Env
+.env
+
+# ML artifacts & uploads (kaynak kod değil)
+app/ml/registry/
+app/ml/datasets/uploads/
+
+# DB volume (lokal)
+pgdata/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+>>>>>>> 5d62931 (chore: add gitignore)
