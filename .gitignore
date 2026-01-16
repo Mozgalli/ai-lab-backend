@@ -227,5 +227,8 @@ pgdata/
 
 # OS
 .DS_Store
+
+# Personal notes
+notes.txt
 Thumbs.db
 >>>>>>> 5d62931 (chore: add gitignore)
