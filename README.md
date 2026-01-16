@@ -1,4 +1,6 @@
 # AI LAB Backend
+![CI](https://github.com/<kullanici>/<repo>/actions/workflows/ci.yml/badge.svg)
+
 **FastAPI + PostgreSQL + Alembic + sklearn ML baseline + Dataset Upload + Preprocess + RQ (Redis) Worker**
 
 Bu repo, yapay zekânın kollarını (ML/NLP/CV/LLM…) **proje bazlı** ilerletebilmek için “deney takip” odaklı bir backend çekirdeğidir.  
