@@ -1,0 +1,32 @@
+Yeni dosya ve güncelleme işlemi için Git işlemleri **tam olarak aynı**:
+
+**1. Durumu kontrol edin:**
+```powershell
+git status
+```
+(Yeni dosya "Untracked files" altında görünecek)
+
+**2. Dosyayı staging area'ya ekleyin:**
+```powershell
+git add CONTRIBUTING.md
+```
+
+**3. Commit yapın:**
+```powershell
+git commit -m "docs: add CONTRIBUTING guide"
+```
+
+**4. GitHub'a gönderin:**
+```powershell
+git push
+```
+
+---
+
+**Tek fark:** 
+- **Değiştirilmiş dosya**: "Changes not staged for commit" (modified)
+- **Yeni dosya**: "Untracked files" (yeni)
+
+Ama **işlem sırası aynı**: `status → add → commit → push`
+
+Şimdi `git status` ile başlayın.
