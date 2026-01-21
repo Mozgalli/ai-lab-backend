@@ -20,3 +20,6 @@ pgdata/
 .DS_Store
 notes.txt
 Thumbs.db
+
+# Notes folder
+notes/
